@@ -15,7 +15,9 @@
 
 #ifdef HAVE_STRTOLD_L
 #include <stdlib.h>
+#ifndef __CYGWIN__
 #include <xlocale.h>
+#endif
 #endif
 
 
